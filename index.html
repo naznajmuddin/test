@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="viewport" content="width-device-width, initial-scale=1">
+		<title>
+			Preservation Activity - Checklist
+		</title>
+		<link rel="stylesheet" href="main.css">
+		<!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">-->
+	</head>
+
+	<body>
+		<h1>
+			<center>
+				Preservation Activity - Checklist
+			</center>
+		</h1>
+
+<div class="container">
+<!-- form starts here -->
+	<form action='' method='post'>
+		<div class="row">
+			<div class="col-25">
+				<label for="area">Area</label>
+			</div>
+
+			<div class="col-75">
+					<select name="area" required>
+						<option value="pp">PP</option>
+						<option value="ll">LLDPE</option>
+						<option value="flexi">Flexi-PE</option>
+					</select>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-25">
+				<label>Line</label>
+			</div>
+
+			<div class="col-75">
+				<input type="text" name="line" value='' required>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-25">
+				<label>Date</label>
+			</div>
+
+			<div class="col-75">
+				<input type='date' name='tarikh' value='' required>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-25">
+				<label>Previous PA Date</label>
+			</div>
+			
+			<div class="col-75">
+				<input type='date' name='prevtarikh' value='' required>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-25">
+				<label>Upcoming PA date</label>
+			</div>
+
+			<div class="col-75">
+				<input type='date' name='upcomingdate' value='' required>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-25">
+				<label>Person In Charge</label>
+			</div>
+
+			<div class="col-75">	
+				<select name="person" required>
+					<option value="hariz">Hariz</option>
+					<option value="faeez">Faeez</option>
+					<option value="ekiey">Akhimullah</option>
+					<option value="angah">Naqiuddin</option>
+					<option value="man">Azman</option>
+					<option value="najib">Najib</option>
+					<option value="nabil">Nabil</option>
+					<option value="sapik">Syafik</option>
+					<option value="din">Hafizuddin</option>
+					<option value="fizul">Hafiszul</option>
+					<option value="iqbal">Iqbal</option>
+					<option value="alang">Najmuddin</option>
+				</select>
+			</div>
+		</div>
+<br>
+		<div class="row">
+			<input type="submit" value="Next">
+		</div>
+	</form>
+</div>
+</body>
+<!-- form ends here -->
+
+
+</html>
